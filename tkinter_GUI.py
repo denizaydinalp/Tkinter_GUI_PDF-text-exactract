@@ -14,7 +14,7 @@ print("Initialized... " + time.asctime())
 
 root = tkinter.Tk()
 root.title("Lets roll... ")
-root.geometry("600x700+2250+200")
+root.geometry("600x700+250+250")
 canvas = tkinter.Canvas(root, width=600, height=700)
 canvas.grid(columnspan=3, rowspan=20)
 
